@@ -1,17 +1,6 @@
 import os
 import time
 
-
-# for i in os.walk('.'):
-#     print(i)
-# print(os.path.join(r'C:\Users\Айрат\PycharmProjects\Praktik\Homework\Module_7'))
-# mtime = os.path.getmtime('.')
-# import time
-#
-# print(time.ctime(mtime))
-# print(os.path.getsize('.'))
-# print(os.path.dirname(r'C:\Users\Айрат\PycharmProjects\Praktik\Homework\Module_7'))
-
 directory = '.'
 for root, dirs, files in os.walk(directory):
   for file in files:
